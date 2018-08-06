@@ -1,13 +1,19 @@
+html, body {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: darkcyan;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
-  background-image:url("../assets/image.jpeg");
-  background-repeat: no-repeat;
-  background-size: 100%;
+
 }
 
 
-    h1 {
+/*    h1 {
     	font-family: helvetica;
     	font-weight: normal;
     	text-align: center;
@@ -103,13 +109,6 @@
 .cal th:last-child{ color:#04d;}
 .cal td{ padding:0 2px; line-height:100%;}
 
-html, body {
-	height: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background: darkcyan;
-}
 
 h1 {
 	font-family: sans-serif;
