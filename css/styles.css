@@ -168,7 +168,12 @@ p:hover .answer {
   transition:all 0.4s linear;
 }
 
-.cal caption{ background:#d44; color:#eee; font-size:15px;}
+.cal caption{
+  background:#d44;
+  color:#eee;
+  font-size:15px;
+}
+
 .cal th{ color:#aaa;line-height:200%;}
 .cal th:first-child{ color:#f00;}
 .cal th:last-child{ color:#04d;}
