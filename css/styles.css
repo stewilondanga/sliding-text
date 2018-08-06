@@ -44,8 +44,8 @@ h1::after {
 	margin-left: 5px;
 	&:first-child .dd_btn {
 	background-color: #f1c40f;
-/*    		&:active {
-    			background: #f39c12;
+	&:active {
+/*    			background: #f39c12;
     		}
     	}
     	&:nth-child(2) .dd_btn {
