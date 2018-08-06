@@ -61,6 +61,10 @@ p .question {
   left: 0;
 }
 
+p:hover .question {
+	left: 100%;
+}
+
 .containers {
   width: 520px;
   margin: 20px auto;
@@ -127,9 +131,9 @@ p .question {
       color: #666;
       background: #f9f9f9;
       &:hover {
-        /*			background: #ecf0f1;
-    			}
-    			&:active {
+        background-color: #ecf0f1;
+      }
+      /*		&:active {
     				background-color: #bdc3c7;
     				color: #fff;
     			}
@@ -145,9 +149,6 @@ p .question {
 .cal th:last-child{ color:#04d;}
 .cal td{ padding:0 2px; line-height:100%;}
 
-p:hover .question {
-	left: 100%;
-}
 
 p .answer {
 	color: whitesmoke;
