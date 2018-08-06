@@ -62,8 +62,8 @@ h1::after {
   }
   &:nth-child(4) .dd_btn {
   	background: #e74c3c;
-  /*  		&:active {
-    			background: #c0392b;
+  	&:active {
+  /*  			background: #c0392b;
     		}
     	}
     	.dd_btn {
