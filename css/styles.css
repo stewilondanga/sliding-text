@@ -39,8 +39,8 @@ h1::after {
 
 .menu_btn {
     	font-family: helvetica;
-/*    	width: 125px;
-    	float: left;
+    	width: 125px;
+/*    	float: left;
     	margin-left: 5px;
     	&:first-child .dd_btn {
     		background: #f1c40f;
