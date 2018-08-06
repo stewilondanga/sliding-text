@@ -123,8 +123,8 @@ p .question {
       display: block;
     	height: 100%;
     	padding: 15px 0 15px 0;
-    	/*		text-decoration: none;
-    			color: #666;
+    	text-decoration: none;
+    	/*		color: #666;
     			background: #f9f9f9;
     			&:hover {
     				background: #ecf0f1;
