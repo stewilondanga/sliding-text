@@ -39,30 +39,28 @@ h1::after {
 
 .menu_btn {
   font-family: helvetica;
-	width: 125px;
-	float: left;
-	margin-left: 5px;
-	&:first-child .dd_btn {
-	background-color: #f1c40f;
-	&:active {
-    background-color: #f39c12;
-		}
-	}
-
-&:nth-child(2) .dd_btn {
-  background: #2ecc71;
-  	&:active {
-  		background-color: #27ae60;
-		}
-	}
-
-&:nth-child(3) .dd_btn {
-  background: #3498db;
-  	&:active {
-/*    			background: #2980b9;
-    		}
-    	}
-    	&:nth-child(4) .dd_btn {
+  width: 125px;
+  float: left;
+  margin-left: 5px;
+  &:first-child .dd_btn {
+    background-color: #f1c40f;
+    &:active {
+      background-color: #f39c12;
+    }
+  }
+  &:nth-child(2) .dd_btn {
+    background: #2ecc71;
+    &:active {
+      background-color: #27ae60;
+    }
+  }
+  &:nth-child(3) .dd_btn {
+    background: #3498db;
+    &:active {
+      background-color: #2980b9;
+    }
+  }
+  /*    	&:nth-child(4) .dd_btn {
     		background: #e74c3c;
     		&:active {
     			background: #c0392b;
