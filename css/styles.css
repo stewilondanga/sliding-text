@@ -4,14 +4,28 @@ html, body {
 	align-items: center;
 	justify-content: center;
 	background: darkcyan;
-}
-
-/*body {
-  text-align: center;
   font-family: courier;
-
 }
 
+
+h1 {
+	font-family: sans-serif;
+	color: gold;
+	text-align: center;
+	position: relative;
+}
+
+h1::after {
+	content: '?';
+	position: absolute;
+	top: -0.35em;
+	left: 0;
+	font-size: 25em;
+	transform: rotate(15deg);
+	color: cyan;
+	filter: opacity(0.3);
+	text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
 
 /*    h1 {
     	font-family: helvetica;
@@ -109,25 +123,6 @@ html, body {
 .cal th:last-child{ color:#04d;}
 .cal td{ padding:0 2px; line-height:100%;}
 
-
-h1 {
-	font-family: sans-serif;
-	color: gold;
-	text-align: center;
-	position: relative;
-}
-
-h1::after {
-	content: '?';
-	position: absolute;
-	top: -0.35em;
-	left: 0;
-	font-size: 25em;
-	transform: rotate(15deg);
-	color: cyan;
-	filter: opacity(0.3);
-	text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
-}
 
 p {
 	width: 400px;
