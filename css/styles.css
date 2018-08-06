@@ -89,8 +89,8 @@ p {
 		color: #fff;
 		font-size: 18px;
 		border: 0px;
-/*    		z-index: 3;
-    		float: left;
+		z-index: 3;
+/*    		float: left;
     		cursor: pointer;
       	background-color:#E19E19;
     		&:active {
