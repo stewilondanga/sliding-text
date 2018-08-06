@@ -43,8 +43,8 @@ h1::after {
 	float: left;
 	margin-left: 5px;
 	&:first-child .dd_btn {
-/*    		background: #f1c40f;
-    		&:active {
+	background-color: #f1c40f;
+/*    		&:active {
     			background: #f39c12;
     		}
     	}
