@@ -110,8 +110,8 @@ p span {
   }
   .dd {
     position: absolute;
-  /*  		width: 255px;
-    		margin-top: 55px;
+  	width: 255px;
+  /*  		margin-top: 55px;
     		background: white;
     		text-align: center;
     		a {
