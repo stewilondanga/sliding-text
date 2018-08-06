@@ -120,8 +120,8 @@ p .question {
     text-align: center;
     a {
       width: 100%;
-      /*    			display: block;
-    			height: 100%;
+      display: block;
+    	/*		height: 100%;
     			padding: 15px 0 15px 0;
     			text-decoration: none;
     			color: #666;
