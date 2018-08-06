@@ -58,7 +58,7 @@ p span {
 }
 
 p .question {
-	left: 0;
+  left: 0;
 }
 
 .containers {
@@ -119,8 +119,8 @@ p .question {
     background: white;
     text-align: center;
     a {
-      /*    			width: 100%;
-    			display: block;
+      width: 100%;
+      /*    			display: block;
     			height: 100%;
     			padding: 15px 0 15px 0;
     			text-decoration: none;
