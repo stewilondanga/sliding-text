@@ -49,6 +49,14 @@ p {
   overflow: hidden;
 }
 
+p span {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	transition: 0.5s ease-out;
+}
+
 .containers {
   width: 520px;
   margin: 20px auto;
@@ -100,8 +108,8 @@ p {
       outline: none;
     }
   }
-  /*    	.dd {
-    		position: absolute;
+  .dd {
+  /*  		position: absolute;
     		width: 255px;
     		margin-top: 55px;
     		background: white;
@@ -133,14 +141,6 @@ p {
 .cal th:last-child{ color:#04d;}
 .cal td{ padding:0 2px; line-height:100%;}
 
-
-p span {
-	position: absolute;
-	width: 100%;
-	top: 0;
-	left: 0;
-	transition: 0.5s ease-out;
-}
 
 p .question {
 	left: 0;
