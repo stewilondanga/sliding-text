@@ -84,23 +84,23 @@ p {
     }
   }
   .dd_btn {
-  	height: 50px;
-		width: 125px;
-		color: #fff;
-		font-size: 18px;
-		border: 0px;
-		z-index: 3;
-		float: left;
-		cursor: pointer;
-  	background-color:#E19E19;
-	&:active {
-/*      		background-color:#946810;
-    		}
-    		&:focus {
-    			outline: none;
-    		}
-    	}
-    	.dd {
+    height: 50px;
+    width: 125px;
+    color: #fff;
+    font-size: 18px;
+    border: 0px;
+    z-index: 3;
+    float: left;
+    cursor: pointer;
+    background-color: #E19E19;
+    &:active {
+      background-color: #946810;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+  /*    	.dd {
     		position: absolute;
     		width: 255px;
     		margin-top: 55px;
