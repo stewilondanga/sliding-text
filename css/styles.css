@@ -48,8 +48,9 @@ h1::after {
     background-color: #f39c12;
 		}
 	}
-/*    	&:nth-child(2) .dd_btn {
-    		background: #2ecc71;
+
+&:nth-child(2) .dd_btn {
+/*    		background: #2ecc71;
     		&:active {
     			background: #27ae60;
     		}
