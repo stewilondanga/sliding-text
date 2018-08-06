@@ -65,6 +65,14 @@ p:hover .question {
   left: 100%;
 }
 
+p .answer {
+	color: whitesmoke;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	background: rgba(0, 0, 0, 0.1);
+	left: -100%;
+}
+
 .containers {
   width: 520px;
   margin: 20px auto;
@@ -134,13 +142,14 @@ p:hover .question {
         background-color: #ecf0f1;
       }
       &:active {
-      	background-color: #bdc3c7;
-  /*  				color: #fff;
-    			}
-    		}
-    	}
+        background-color: #bdc3c7;
+        color: #fff;
+      }
     }
+  }
+}
 
+/*
 .cal{ display:inline-block; background:#ffe; color:#555; font-size:6px; text-align:center; transform:scale(1); transition:all 0.2s linear;}
 .cal:hover{ transform:scale(2.5);transition:all 0.4s linear;}
 .cal caption{ background:#d44; color:#eee; font-size:15px;}
@@ -149,14 +158,6 @@ p:hover .question {
 .cal th:last-child{ color:#04d;}
 .cal td{ padding:0 2px; line-height:100%;}
 
-
-p .answer {
-	color: whitesmoke;
-	font-size: 1.1em;
-	text-transform: uppercase;
-	background: rgba(0, 0, 0, 0.1);
-	left: -100%;
-}
 
 p:hover .answer {
 	left: 0;
