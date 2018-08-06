@@ -63,10 +63,10 @@ h1::after {
   &:nth-child(4) .dd_btn {
   	background: #e74c3c;
   	&:active {
-  /*  			background: #c0392b;
-    		}
-    	}
-    	.dd_btn {
+    	background-color: #c0392b;
+  	}
+  }
+/*    	.dd_btn {
     		height: 50px;
     		width: 125px;
     		color: #fff;
