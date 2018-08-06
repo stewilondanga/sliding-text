@@ -33,20 +33,20 @@ h1::after {
 }
 
 p {
-	width: 400px;
-	height: 2.5em;
-	color: gold;
-	font-size: 24px;
-	border: 2px solid gold;
-	line-height: 2.5em;
-	text-align: center;
-	border-radius: 10px;
-	font-family: sans-serif;
-	letter-spacing: 2px;
-	word-spacing: 2px;
-	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-	position: relative;
-	overflow: hidden;
+  width: 400px;
+  height: 2.5em;
+  color: gold;
+  font-size: 24px;
+  border: 2px solid gold;
+  line-height: 2.5em;
+  text-align: center;
+  border-radius: 10px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden;
 }
 
 .containers {
@@ -78,13 +78,13 @@ p {
     }
   }
   &:nth-child(4) .dd_btn {
-  	background: #e74c3c;
-  	&:active {
-    	background-color: #c0392b;
-  	}
+    background: #e74c3c;
+    &:active {
+      background-color: #c0392b;
+    }
   }
-/*    	.dd_btn {
-    		height: 50px;
+  .dd_btn {
+/*    		height: 50px;
     		width: 125px;
     		color: #fff;
     		font-size: 18px;
