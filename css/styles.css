@@ -153,7 +153,15 @@ p:hover .answer {
   }
 }
 
-.cal{ display:inline-block; background:#ffe; color:#555; font-size:6px; text-align:center; transform:scale(1); transition:all 0.2s linear;}
+.cal{
+  display:inline-block;
+  background:#ffe;
+  color:#555;
+  font-size:6px;
+  text-align:center;
+  transform:scale(1);
+  transition:all 0.2s linear;
+}
 .cal:hover{ transform:scale(2.5);transition:all 0.4s linear;}
 .cal caption{ background:#d44; color:#eee; font-size:15px;}
 .cal th{ color:#aaa;line-height:200%;}
