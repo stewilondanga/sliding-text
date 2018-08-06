@@ -1,19 +1,18 @@
 html, body {
-	height: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background: darkcyan;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: darkcyan;
   font-family: courier;
 }
 
-
 h1 {
-	font-family: sans-serif;
+  font-family: sans-serif;
   font-weight: normal;
-	color: gold;
-	text-align: center;
-	position: relative;
+  color: gold;
+  text-align: center;
+  position: relative;
   padding-top: 50px;
   padding-bottom: 10px;
   width: 375px;
@@ -22,29 +21,25 @@ h1 {
 }
 
 h1::after {
-	content: '?';
-	position: absolute;
-	top: -0.35em;
-	left: 0;
-	font-size: 25em;
-	transform: rotate(15deg);
-	color: cyan;
-	filter: opacity(0.3);
-	text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  content: '?';
+  position: absolute;
+  top: -0.35em;
+  left: 0;
+  font-size: 25em;
+  transform: rotate(15deg);
+  color: cyan;
+  filter: opacity(0.3);
+  text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
-/*    h1 {
+.containers {
+  width: 520px;
+  margin: 20px auto;
+}
 
-    }
-
-    .containers {
-    	width: 520px;
-    	margin: 20px auto;
-    }
-
-    .menu_btn {
+.menu_btn {
     	font-family: helvetica;
-    	width: 125px;
+/*    	width: 125px;
     	float: left;
     	margin-left: 5px;
     	&:first-child .dd_btn {
