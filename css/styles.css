@@ -93,8 +93,8 @@ p {
 		float: left;
 		cursor: pointer;
   	background-color:#E19E19;
-/*    		&:active {
-      		background-color:#946810;
+	&:active {
+/*      		background-color:#946810;
     		}
     		&:focus {
     			outline: none;
